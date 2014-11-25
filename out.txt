@@ -1,0 +1,574 @@
+﻿<!doctype html>
+<html>
+<head>
+	<title></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+			<base href="https://capitadiscovery.co.uk/royalgreenwich/"><!--[if IE]></base><![endif]-->
+		<script type="text/javascript">
+		document.documentElement.className='js';
+	</script>
+	<link rel="stylesheet" type="text/css" href="assets/1a7cd5c98e52ef7fc812ce454bb06886ea648202/merged.css"/>
+	<link rel="alternate" type="application/json" href="https://capitadiscovery.co.uk/royalgreenwich/account.json" title="JSON: " />
+<link rel="alternate" type="text/html" href="https://capitadiscovery.co.uk/royalgreenwich/account.html" title="(X)HTML: " />
+	<link rel="icon" href="//capitadiscovery.co.uk/favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="//capitadiscovery.co.uk/favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="//capitadiscovery.co.uk/favicon.ico" type="image/vnd.microsoft.icon" />
+
+			<link rel="apple-touch-icon" href="/images/start_icon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+</head>
+
+<!--[if lt IE 7 ]> <body id="account" class="ie6 oldie en-gb live"> <![endif]-->
+<!--[if IE 7 ]>	<body id="account" class="ie7 oldie en-gb live"> <![endif]-->
+<!--[if IE 8 ]>	<body id="account" class="ie8 en-gb live"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <body id="account" class="en-gb live"> <!--<![endif]-->
+	
+	<div id="page" class="showgrid">
+		<span id="skiplink" class="visuallyHidden focusable">
+			<a href="#pageContent" title="Skip to Content">Skip to Content</a>
+  		</span>
+
+		<div id="pageContainer">
+
+			<div id="headerFragment"><!--[if IE 7 ]>   <link rel="stylesheet" type="text/css" href="assets/-/ie7.css"/> <![endif]-->
+<!--[if lte IE 8 ]><link rel="stylesheet" type="text/css" href="assets/-/ie8.css"/><![endif]-->
+<link href='http://fonts.googleapis.com/css?family=Oswald:400' rel='stylesheet' type='text/css'>
+
+<div class="content-width-limit">
+
+    <div class="header-inner">
+    
+        <a class="better-logo" href="http://www.better.org.uk/libraries"><img src="/royalgreenwich/assets/-/images/better-logo.gif" alt="Royal Greenwich Council"></a>
+    	
+    	<a class="greenwich-logo" href="http://www.royalgreenwich.gov.uk"><img src="/royalgreenwich/assets/-/images/royal-greenwich-logo.gif" alt="Royal Greenwich Council"></a>
+
+    </div>
+
+
+</div></div>
+		  	<div id="headerLinks">
+	  			<ul class="accessibilityLinks appLinks posAbs navList">
+	  				<li><a href="http://www.better.org.uk/libraries">Better Libraries</a></li>
+<li><a href="home">Catalogue Home</a></li>
+<li><a href="http://greenwich-uk.lib.overdrive.com/F655A87D-C5F2-4FDC-AC9F-5A63DBDAD088/10/523/en/Default.htm">Ebooks &amp; Audio</a></li>
+<li><a href="http://www.royalgreenwich.gov.uk/info/437/libraries_-_information_and_advice/245/computers_and_online_services_in_libraries">Online Resources</a></li>	  				<li class="last">
+				  		<a href="searchhelp">Help</a>
+	  				</li>
+		  		</ul>
+		  		<ul class="userLinks posAbs navList">
+					  <li><a href="https://capitadiscovery.co.uk/royalgreenwich/join" id="join-link">Join</a></li>			  				  				<li>
+							<form id="logout" action="https://capitadiscovery.co.uk/royalgreenwich/sessions" method="post"  class="inlineForm">
+								<div class="inlineForm">
+									<input type="hidden" id="logout_method" name="_method" value="DELETE" />
+									<input type="submit" id="logout_button" value="Logout" />
+								</div>
+							</form>
+			  				</li>
+								  				<li><a href="https://capitadiscovery.co.uk/royalgreenwich/account" id="account-link">My Account</a></li>
+
+												<li><a href="lists" id="lists-link">My Lists </a></li>
+
+											</ul>
+		  	</div>
+			<div id="pageHeader">
+				<h1 id="appTitle" class="hidden"><a href="http://capitadiscovery.co.uk/royalgreenwich/" title="Prism">Prism</a></h1>
+								<div id="searchBox">
+					        <form id="searchform" action="items" method="get" autocomplete="off">
+        	<div class="formElement">
+        		<label id="jslabel" for="s" class="visuallyHidden">Search the library catalogue</label>
+
+        		<input type="text" id="s" name="query" maxlength="1000" value="" placeholder="Search the library catalogue" class="search-input" autocomplete="off"/>
+
+                
+        		<input type="submit" id="searchsubmit" value="Search" />
+
+                <a href="advancedsearch" class="visuallyHidden" id="advancedSearchFallback">More search options</a>
+        		<a href="advancedsearch" id="advanced-search-link">Build Search</a>
+        	</div>
+        </form>
+        				</div>
+			</div>
+
+			
+			<div id="pageContent" >
+				<h1>
+	My Library Account</h1>
+
+<div class="accountDetail">
+
+	<div class="accountSummary uiBorder">
+		<strong>Hello Gray  Thomas! </strong>
+		You have six loans. 	</div>
+
+	<ul class="accountNav tabs">
+<li id="tabAccountLoans" class="selected mobile-inline "><strong>Loans</strong></li>
+<li id="tabAccountCharges" class="mobile-inline "><a href="https://capitadiscovery.co.uk/royalgreenwich/account/charges">Charges</a></li>
+<li id="tabAccountReservations" class="mobile-inline "><a href="https://capitadiscovery.co.uk/royalgreenwich/account/reservations">Reservations</a></li>
+<li id="tabAccountBookings" class="mobile-inline "><a href="https://capitadiscovery.co.uk/royalgreenwich/account/bookings">Bookings</a></li>
+<li id="tabAccountIlls" class="mobile-inline "><a href="https://capitadiscovery.co.uk/royalgreenwich/account/ill">Inter-library Loans</a></li>
+<li id="tabAccountHistory" class="mobile-inline "><a href="https://capitadiscovery.co.uk/royalgreenwich/account/history">Loan History</a></li>
+<li id="tabAccountSettings" class="mobile-inline "><a href="https://capitadiscovery.co.uk/royalgreenwich/account/pin">Change PIN</a></li>
+<li id="tabAccountContact" class="mobile-inline "><a href="https://capitadiscovery.co.uk/royalgreenwich/account/contact">Contact options</a></li>
+<li id="tabAccountCommunications" class="mobile-inline "><a href="https://capitadiscovery.co.uk/royalgreenwich/account/communications">Communications</a></li>
+</ul>
+
+
+	<div class="panel uiBorder">
+		<h2 class="offscreen">Loans</h2>
+
+
+
+<form action="https://capitadiscovery.co.uk/royalgreenwich/account/loans" method="post" class="renewForm renewall posRight posRel">
+		<input type="hidden" name="loan_ids[]" value="1568762"/>
+		<input type="hidden" name="loan_ids[]" value="1605780"/>
+		<input type="hidden" name="loan_ids[]" value="1605747"/>
+		<input type="hidden" name="loan_ids[]" value="1605745"/>
+		<input type="hidden" name="loan_ids[]" value="1605744"/>
+		<input type="hidden" name="loan_ids[]" value="1605746"/>
+	
+	<input type="submit" value="Renew all" id="renew_all" class="uiButtonActive">
+</form>
+
+<table cellspacing="0" id="loans">
+	<thead>
+	<tr>
+		<th scope="col" class="accItem">Title / Author</th>
+		<th scope="col" class="accDue">Due Date</th>
+		<th scope="col" class="accFines">Fine</th>
+		<th scope="col" class="accRenews">Renew Count</th>
+		<th scope="col" class="accActions">Actions</th>
+	</tr>
+	</thead>
+
+	<tbody>
+			<tr class=" duesoon"
+	    id="row_1568762">
+		<th scope="row">
+						<a href="items/176441" class="loanItemLink">
+				<img src="items/176441/image-tiny" alt=""/>
+				Flashforward			</a>
+			
+			<span class="author">Sawyer, Robert J.</span>
+		</th>
+
+		<td class="accDue">29th November		</td>
+
+		<td class="accFines">
+			<span class="currency">┬ú</span>0.00		</td>
+
+		<td class="accRenews">
+			1					</td>
+
+		<td class="accActions">
+			<form class="ajaxify inlineForm renewForm" method="post" action="https://capitadiscovery.co.uk/royalgreenwich/account/loans">
+				<input type="hidden" name="loan_ids[]" value="1568762"/>
+				<input type="submit" title="Renew: Flashforward" name="Renew"
+				       value="Renew" id="renew_item_1568762" class="uiButtonActive"/>
+			</form>
+					</td>
+
+	</tr>
+
+			<tr class=""
+	    id="row_1605780">
+		<th scope="row">
+						<a href="items/209239" class="loanItemLink">
+				<img src="items/209239/image-tiny" alt=""/>
+				The Fear Index			</a>
+			
+			<span class="author">Harris, Robert</span>
+		</th>
+
+		<td class="accDue">6th December		</td>
+
+		<td class="accFines">
+			<span class="currency">┬ú</span>0.00		</td>
+
+		<td class="accRenews">
+			0					</td>
+
+		<td class="accActions">
+			<form class="ajaxify inlineForm renewForm" method="post" action="https://capitadiscovery.co.uk/royalgreenwich/account/loans">
+				<input type="hidden" name="loan_ids[]" value="1605780"/>
+				<input type="submit" title="Renew: The Fear Index" name="Renew"
+				       value="Renew" id="renew_item_1605780" class="uiButtonActive"/>
+			</form>
+					</td>
+
+	</tr>
+
+			<tr class=""
+	    id="row_1605747">
+		<th scope="row">
+						<a href="items/200225" class="loanItemLink">
+				<img src="items/200225/image-tiny" alt=""/>
+				The way we were			</a>
+			
+			<span class="author">Noble, Elizabeth</span>
+		</th>
+
+		<td class="accDue">6th December		</td>
+
+		<td class="accFines">
+			<span class="currency">┬ú</span>0.00		</td>
+
+		<td class="accRenews">
+			0					</td>
+
+		<td class="accActions">
+			<form class="ajaxify inlineForm renewForm" method="post" action="https://capitadiscovery.co.uk/royalgreenwich/account/loans">
+				<input type="hidden" name="loan_ids[]" value="1605747"/>
+				<input type="submit" title="Renew: The way we were" name="Renew"
+				       value="Renew" id="renew_item_1605747" class="uiButtonActive"/>
+			</form>
+					</td>
+
+	</tr>
+
+			<tr class=""
+	    id="row_1605745">
+		<th scope="row">
+						<a href="items/181047" class="loanItemLink">
+				<img src="items/181047/image-tiny" alt=""/>
+				Agatha Raisin and the wellspring of death			</a>
+			
+			<span class="author">Beaton, M. C.</span>
+		</th>
+
+		<td class="accDue">6th December		</td>
+
+		<td class="accFines">
+			<span class="currency">┬ú</span>0.00		</td>
+
+		<td class="accRenews">
+			0					</td>
+
+		<td class="accActions">
+			<form class="ajaxify inlineForm renewForm" method="post" action="https://capitadiscovery.co.uk/royalgreenwich/account/loans">
+				<input type="hidden" name="loan_ids[]" value="1605745"/>
+				<input type="submit" title="Renew: Agatha Raisin and the wellspring of death" name="Renew"
+				       value="Renew" id="renew_item_1605745" class="uiButtonActive"/>
+			</form>
+					</td>
+
+	</tr>
+
+			<tr class=""
+	    id="row_1605744">
+		<th scope="row">
+						<a href="items/230130" class="loanItemLink">
+				<img src="items/230130/image-tiny" alt=""/>
+				Inferno			</a>
+			
+			<span class="author">Brown, Dan</span>
+		</th>
+
+		<td class="accDue">6th December		</td>
+
+		<td class="accFines">
+			<span class="currency">┬ú</span>0.00		</td>
+
+		<td class="accRenews">
+			0					</td>
+
+		<td class="accActions">
+			<form class="ajaxify inlineForm renewForm" method="post" action="https://capitadiscovery.co.uk/royalgreenwich/account/loans">
+				<input type="hidden" name="loan_ids[]" value="1605744"/>
+				<input type="submit" title="Renew: Inferno" name="Renew"
+				       value="Renew" id="renew_item_1605744" class="uiButtonActive"/>
+			</form>
+					</td>
+
+	</tr>
+
+			<tr class=""
+	    id="row_1605746">
+		<th scope="row">
+						<a href="items/195281" class="loanItemLink">
+				<img src="items/195281/image-tiny" alt=""/>
+				To the moon and back : how far would you go for love?			</a>
+			
+			<span class="author">Mansell, Jill</span>
+		</th>
+
+		<td class="accDue">6th December		</td>
+
+		<td class="accFines">
+			<span class="currency">┬ú</span>0.00		</td>
+
+		<td class="accRenews">
+			0					</td>
+
+		<td class="accActions">
+			<form class="ajaxify inlineForm renewForm" method="post" action="https://capitadiscovery.co.uk/royalgreenwich/account/loans">
+				<input type="hidden" name="loan_ids[]" value="1605746"/>
+				<input type="submit" title="Renew: To the moon and back : how far would you go for love?" name="Renew"
+				       value="Renew" id="renew_item_1605746" class="uiButtonActive"/>
+			</form>
+					</td>
+
+	</tr>
+
+			</tbody>
+
+</table>
+	<div id="unRenewable" class="notice jsHidden">
+		<h2 id="unRenewableLabel">This item is reserved by another borrower</h2>
+		<ul>
+			<li>This item has been reserved by another borrower. Please be aware that you may not be able to renew this item.</li>
+		</ul>
+	</div>
+	</div>
+</div>			</div>
+
+			<div id="pageFooter">
+				<div class="content-width-limit">
+
+
+
+<hr width="100%">
+
+
+
+	<div class="footer-links">
+
+
+
+		<div class="footer-links-col">
+
+			<ul>
+
+			<h3>BETTER LIBRARIES</h3>
+
+			<li><a href="http://www.better.org.uk/libraries" >Library facilities</a></li>
+
+			<li><a href="http://www.better.org.uk/contactus?venue_type=Library">Contact Libraries</a></li>
+
+			<li><a href="http://www.better.org.uk/memberships_libraries">Library membership</a></li>
+
+			</ul>
+
+		</div>
+
+
+
+		<div class="footer-links-col">
+
+			<ul>
+
+			<h3>ABOUT THIS SITE</h3>
+
+			<li><a href="http://www.better.org.uk/privacy">Privacy Policy</a></li>
+
+			<li><a href="http://www.better.org.uk/terms">Terms & Conditions</a></li>
+
+			<li><a href="http://www.better.org.uk/accessibility">Accessibility</a></li>
+
+			</ul>
+
+		</div>
+
+
+
+	</div>
+
+    
+
+    <div class="footer-about">
+
+         <p>Powered by <a href="http://www.capita-softwareandmanagedservices.co.uk/software/Pages/libraries-prism.aspx">Capita's Prism</a></p>
+
+    </div>
+
+
+
+</div>
+
+			</div>
+
+			<div id="pageFooterMobile" class="mobile">
+				<ul class="menu">
+					<li><a href="advancedsearch">More search options</a></li>
+				</ul>
+			</div>
+
+		</div><!-- end pageContainer -->
+	</div><!-- End #page -->
+<div id="responsiveMarker"></div>
+	<script type="text/javascript">
+		var tr = {
+			'expandall':"Expand All",
+			'collapseall':"Collapse All",
+			'lists_saving':"Saving...",
+			'lists_done':"Done!",
+			'lists_error':"An error occured. Please try again.",
+			'close_dialog':"Close dialog",
+			'show_facets':"Show facets",
+			'next':"Next >",
+			'previous':"< Prev",
+			'rating_saving':"Saving your rating...",
+			'rating_save_error':"Could not save rating at this time.",
+			'rating_saved_by':"from {{users}} users",
+			'rated_by_one':"from 1 user",
+			'rating_saved':"Your rating was saved!",
+			'search_term_needed':"Please enter a term in the search box.",
+			'account_renewaction':"Renew",
+			'account_renewaction_renewing':"Renewing...",
+			'account_renewaction_successful':"Renewed!",
+			'account_renewaction_failed':"Renewal Failed",
+			'account_renewaction_error':"An error has occured. Please try again.",
+			'account_error_connect':"Could not connect to library system due to a temporary issue.",
+			'account_error_loan_title':"Could not renew {title}",
+			'account_success_loan_title':"Successfully renewed {title}",
+			'account_renew_all':"Renew all",
+			'item_enrichments_expand':"Expand",
+			'item_enrichments_collapse':"Collapse",
+			'more_tags':"More Tags",
+			'less_tags': "Less Tags",
+			'recently_added' : "Recently added tags",
+			'tag_moderated': "These may be moderated",
+			'tag_saving': "Saving...",
+			'tag_success': "Successfully added the tags:",
+			'edit_tag_button': "Change your tags",
+			'autocomplete_author': "Author",
+			'autocomplete_subject': "Subject",
+			'autocomplete_title': "Title",
+			'autocomplete_nature': "Nature",
+			'autocomplete_genre': "Genre",
+			'content_found_title': "Found alternative content"
+		};
+
+		var PRISM = {
+			'base_url':'https://capitadiscovery.co.uk/royalgreenwich/',
+			'cache_duration_search': 1200,
+			'account_message_delay':60000,
+			'fade_messages':true,
+			'displayRecommendations':3,
+			'actions':['searchDefault','alternateScript','advancedSearch','searchBuffer','setUp','checkSize'],
+			'initial_query':"",
+			'initial_terms' : {},
+			'use_new_format_facet' : true,
+			'page': 'account',
+			'locale':'en-gb',
+			'search_builder_shift':-40,
+			'ip':'154.58.89.27',
+			'reviews_max_length':500,
+
+			'config':{
+				'mobile': true,
+				'html5': true,
+				'ratings': true,
+				'tags':'true',
+	   			'enhanced_lists':true,
+				'auth':true,
+				'multiple_langs':false,
+				'requires_pin': true,
+				'locale':'en-gb',
+				'moderation':'false',
+				'suggestion_desktop':'5',
+				'suggestion_mobile':'1',
+				'suggestion_max':'7'
+			}
+		};
+
+					PRISM.actions.push('suggest');
+		
+		
+		
+		
+		
+					//account page js
+			PRISM.actions.push('renewals','unrenewableSummary');
+				
+		
+        
+		
+	</script>
+	<script id="tmpl-lists-dialog" type="text/x-prism-template">
+		<div class="dialog listdialog modal uiShadow" role="dialog" tabindex="-1" aria-labeledby="ldtitle{{id}}">
+			<h2 id="ldtitle{{id}}">Save</h2>
+			<h3>Add {{title}} to list</h3>
+			<form>
+				<div class="formElement" {{hidelist}}>
+					<label for="ldcurrent{{id}}">Existing list:</label>
+					<select id="ldcurrent{{id}}" name="ldcurrent" >{{lists}}</select>
+				</div>
+				<div class="formElement">
+					<label for="ldnew{{id}}">New list</label>
+					<input type="text" name="ldnew" id="ldnew{{id}}"  value="" />
+				</div>
+				<div>
+					<input type="submit" name="add" value="Save" id="ldsub{{id}}" class="save" />
+					<input type="hidden" name="action" value="add" /><input type="hidden" name="bib_id" value="{{bib_id}}" />
+				</div>
+			</form>
+			<h3 class="export">Export</h3>
+			<div class="citationExport uiBox uiBorder uiIconPre">
+				<ul>
+					<li><a href="{{url}}.enw">Endnote</a></li>
+					<li><a href="{{url}}.ris">RIS</a></li>
+					<li><a href="http://www.refworks.com/express/expressimport.asp?vendor=Talis+Prism+3&amp;filter=RefWorks+Tagged+Format&amp;url={{url}}.refworks">Refworks</a></li>
+				</ul>
+			</div>
+			<a href="#" class="close"><img alt="Close dialog" src="/images/remove.png"></a>
+		</div>
+	</script>
+
+	<script id="tmpl-search-dd" type="text/x-prism-template">
+		<div class="dropMenu" id="advanced" aria-live="polite" aria-relevant="additions removals" tabindex="0" aria-role="dialog" aria-labelledby="advanced_header" aria-describedby="advancedSearchForm">
+			<h2 id="advanced_header">Build Search</h2>
+			<form class="genericForm" action="items" id="advancedSearchForm">
+				<div class="formElement buildSearch" role="group" tabindex="0">
+				   <label for="adv_s2">Search for:</label>
+				   <div class="search-input uiBorder" id="adv_s" tabindex="0" role="textbox"><span class="search-builder"><span class="last">{{query}}</span></span></div><input class="search-input uiBorder" id="adv_s2" name="query" value="{{query}}" type="text" style="display:none" placeholder="Add a term" /><input type="submit" value="Search"  aria-label="Search" class="submit" />
+				</div>
+			</form>
+			<p class="note de-em">You can access the <a href="advancedsearch">old advanced search</a>.</p>
+			<a href="#" class="close"><img alt="Close dialog" src="/images/remove.png"></a>
+		</div>
+	</script>
+
+	<script type="text/x-prism-template" id="tmpl-search-group">
+		<div class="runOn formElement groupPin" role="group" id="qb-grp-{{id}}" aria-label="search group" tabindex="0">
+			<select class="connector" aria-label="connector">
+				<option value="AND">AND</option>
+				<option value="OR">OR</option>
+				<option value="AND NOT">NOT</option>
+			</select>
+			<label for="qb-dd-{{id}}">with</label>
+			<select id="qb-dd-{{id}}" class="choose">{{select}}</select>
+			<input id="qb-txt-{{id}}" type="text" name="author"/>
+			<label class="visuallyHidden" for="qb-txt-{{id}}">{{label}}</label>
+			<input class="smallButton remove" type="button" value="-" aria-label="Remove"/>
+			<input class="smallButton add" type="button" value="+" aria-label="Add" aria-controls="qb-grp-{{id}}"/>
+			<label class="helpText" for="qb-txt-{{id}}">{{help}}</label>
+		</div>
+	</script>
+
+	<script type="text/javascript" src="/js/prism.30.min.js"></script>
+	<script type="text/javascript" src="options/js/en-gb"></script>
+
+		<script type="text/javascript">
+	$=jQuery=PRISM.$
+</script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+
+		// add inner wrapper on headerLinks div
+		$( "#headerLinks" ).wrap( "<div class='headerLinks--wrap'></div>");
+		
+		// Move search box to header
+		if(!PRISM.mobile){
+			$("#index #searchBox").prependTo(".home-panel2 #searchBox-target");
+		}
+		
+		// remove tagline on mobile
+		$(".mobile.tagLine").remove();
+		
+	});
+</script>
+
+<script type="text/javascript" src="assets/-/js/onlineJoining.js"></script></body>
+</html>
