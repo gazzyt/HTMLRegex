@@ -266,15 +266,18 @@ int main(int argc, char** argv)
 
 	try
 	{
-		std::string reg = R"(</?\w+((\s+\w+(\s*=\s*(?:".*?"|'.*?'|[^'">\s]+))?)+\s*|\s*)/?>)";
+		std::string reg = R"(<tr.*tr>)";
+		//std::string reg = R"(</?\w+((\s+\w+(\s*=\s*(?:".*?"|'.*?'|[^'">\s]+))?)+\s*|\s*)/?>)";
 		//std::string reg = R"(</?\w+>)";
-		RegularExpression regex(reg, RegularExpression::RE_EXTENDED);
+		RegularExpression regex(reg, RegularExpression::RE_EXTENDED | RegularExpression::RE_MULTILINE | RegularExpression::RE_DOTALL | RegularExpression::RE_UNGREEDY);
 
 		while (regex.match(fileContents, htmlOffset, match))
 		{
 			htmlOffset = match.offset + match.length;
+			std::cout << "*****************************************************************************" << std::endl;
 			std::cout << std::string(fileContents, match.offset, match.length) << std::endl;
 		}
+		std::cout << "*****************************************************************************" << std::endl;
 
 	}
 	catch (RegularExpressionException& ree)
