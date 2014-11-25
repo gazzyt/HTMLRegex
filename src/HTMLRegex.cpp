@@ -245,6 +245,19 @@ private:
 	bool _helpRequested;
 };
 
+void ExtractData(std::string tableRow)
+{
+	RegularExpression regex(R"(<span.*>(.*)</span>)", RegularExpression::RE_MULTILINE);
+	std::vector<std::string> strings;
+
+	regex.split(tableRow, strings);
+
+	for (int i = 1; i < strings.size(); i++)
+	{
+		std::cout << strings[i] << std::endl;
+	}
+}
+
 int main(int argc, char** argv)
 {
 	// parse an HTML document and print the generated tags
@@ -275,7 +288,10 @@ int main(int argc, char** argv)
 		{
 			htmlOffset = match.offset + match.length;
 			std::cout << "*****************************************************************************" << std::endl;
-			std::cout << std::string(fileContents, match.offset, match.length) << std::endl;
+			std::string matchString(fileContents, match.offset, match.length);
+			//std::cout << matchString << std::endl;
+
+			ExtractData(matchString);
 		}
 		std::cout << "*****************************************************************************" << std::endl;
 
@@ -287,3 +303,4 @@ int main(int argc, char** argv)
 
 	return 0;
 }
+
