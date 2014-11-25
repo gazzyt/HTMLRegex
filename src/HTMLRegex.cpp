@@ -247,7 +247,9 @@ private:
 
 void ExtractData(std::string tableRow)
 {
-	RegularExpression regex(R"(<span.*>(.*)</span>)", RegularExpression::RE_MULTILINE);
+	RegularExpression regex(R"(<img.*>(.*)</a>.*<span.*>(.*)</span>.*<td.*>(.*)</td>)", 
+		RegularExpression::RE_MULTILINE | RegularExpression::RE_DOTALL | RegularExpression::RE_UNGREEDY);
+	//RegularExpression regex(R"(<img.*>(.*)</a>)", RegularExpression::RE_MULTILINE | RegularExpression::RE_DOTALL);
 	std::vector<std::string> strings;
 
 	regex.split(tableRow, strings);
