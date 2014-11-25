@@ -1,3 +1,5 @@
+#include "Poco/Exception.h"
+#include "Poco/RegularExpression.h"
 #include "Poco/StreamCopier.h"
 #include "Poco/SharedPtr.h"
 #include "Poco/Net/HTTPClientSession.h"
@@ -18,6 +20,8 @@
 #include <sstream>
 #include <streambuf>
 
+using Poco::RegularExpression;
+using Poco::RegularExpressionException;
 using Poco::StreamCopier;
 using Poco::SharedPtr;
 using Poco::Net::HTTPClientSession;
@@ -254,8 +258,29 @@ int main(int argc, char** argv)
 	std::ifstream infile(argv[1], std::ios_base::in);
 	std::string fileContents((std::istreambuf_iterator<char>(infile)), std::istreambuf_iterator<char>());
 
-	std::cout << fileContents;
+	//std::cout << fileContents;
+	std::string matchText;
+	int numMatches = 0;
+	RegularExpression::Match match;
+	std::string::size_type htmlOffset = 0;
 
+	try
+	{
+		std::string reg = R"(</?\w+((\s+\w+(\s*=\s*(?:".*?"|'.*?'|[^'">\s]+))?)+\s*|\s*)/?>)";
+		//std::string reg = R"(</?\w+>)";
+		RegularExpression regex(reg, RegularExpression::RE_EXTENDED);
+
+		while (regex.match(fileContents, htmlOffset, match))
+		{
+			htmlOffset = match.offset + match.length;
+			std::cout << std::string(fileContents, match.offset, match.length) << std::endl;
+		}
+
+	}
+	catch (RegularExpressionException& ree)
+	{
+		std::cout << ree.message();
+	}
 
 	return 0;
 }
