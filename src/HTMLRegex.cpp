@@ -245,7 +245,7 @@ private:
 	bool _helpRequested;
 };
 
-void ExtractData(std::string tableRow)
+void ExtractData(std::string& tableRow)
 {
 	RegularExpression regex(R"(<img.*>\s*(\w+.*\w+)\s*</a>.*<span.*>(.*)</span>.*<td.*>(.*)</td>)", 
 		RegularExpression::RE_MULTILINE | RegularExpression::RE_DOTALL | RegularExpression::RE_UNGREEDY);
